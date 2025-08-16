@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOX-MODEL</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>CSS Basics & The Box Model</h1>
+    </header>
+
+    <nav class="name">
+      <h3>Apply sytling to the ff:</h3>
+      <list>
+        <ul>
+          <li>Text</li>
+          <li>Backgrounds</li>
+          <li>Layout Elements</li>
+        </ul>
+      </list>
+    </nav>
+
+    <main>
+      <h3>Introduce yourself</h3>
+      <form>
+        <label for="name">Handle:</label>
+        <input
+          type="text"
+          minlength="5"
+          maxlength="20"
+          id="name"
+          placeholder="Siphosethu"
+          required
+        /><br />
+        <label for="gender">Gender:</label>
+        <select id="gender" required>
+          <option value="">--SELECT--</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option></select
+        ><br />
+        <textarea
+          class="message"
+          type="text"
+          minlength="50"
+          maxlength="400"
+          rows="20"
+          cols="22"
+          placeholder="Type your message here:"
+        ></textarea
+        ><br />
+        <button>SUBMIT</button>
+      </form>
+    </main>
+  </body>
+</html>

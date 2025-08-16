@@ -1,0 +1,49 @@
+* {
+  background-color: purple;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0 10px;
+}
+
+header {
+  height: 100px;
+  background-color: antiquewhite;
+  margin: 10px 5px;
+}
+
+.name {
+  background-color: red;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.name list {
+  color: yellow;
+}
+
+main {
+  height: 10px;
+  background-color: black;
+}
+
+.message {
+  margin-left: 60px;
+  margin-top: 5px;
+  background-color: aqua;
+}
+
+#gender {
+  margin-top: 5px;
+  color: yellow;
+}
+
+form button {
+  padding: 3px 30px;
+  margin-left: 85px;
+  background-color: blueviolet;
+  color: beige;
+}
